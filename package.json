@@ -1,0 +1,9 @@
+{
+  "name": "blood-pwa-notifier",
+  "version": "1.0.0",
+  "main": "sendNotifications.js",
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "node-fetch": "^2.6.7"
+  }
+}
