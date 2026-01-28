@@ -1,9 +1,9 @@
 name: Notify Donors
 
 on:
-  schedule:
-    - cron: "*/1 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [send_notification]
 
 jobs:
   send_notification:
